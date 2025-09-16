@@ -2,6 +2,8 @@
 
 The RL Routing Simulator is a reinforcement learning project designed to train an agent to find near-optimal paths in a graph environment. It compares the learned paths from a **PPO (Proximal Policy Optimization)** agent against Dijkstra’s algorithm to evaluate performance.
 
+**➡️ Live Demo: [Graph Route AI on Streamlit Community Cloud](https://graph-route-ai.streamlit.app/)**
+
 ## Key Features
 
   - Custom routing environment with a variable number of nodes.
@@ -113,7 +115,7 @@ streamlit run app.py
 
 > **Note**: Ensure a trained `model.zip` file exists in the project's root directory before running the Streamlit app.
 
-**Streamlit App Link**: [Paste app link here]
+**Streamlit App Link**: [link](https://graph-route-ai.streamlit.app/)
 
 -----
 
