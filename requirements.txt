@@ -1,0 +1,25 @@
+# RL and environment
+stable-baselines3==2.1.0
+torch==2.2.0
+torchvision==0.16.0  # optional, sometimes required with torch
+numpy==1.26.0
+
+# Transformers and BERT
+transformers==4.41.0
+sentence-transformers==2.2.2
+
+# Data handling
+pandas==2.1.1
+scikit-learn==1.3.1
+pickle5==0.0.12
+
+# Graph and plotting
+networkx==3.1
+matplotlib==3.8.0
+
+# Web app
+streamlit==1.26.0
+requests==2.32.0
+
+# Optional warnings suppression (protobuf / TF)
+protobuf==6.0.3
