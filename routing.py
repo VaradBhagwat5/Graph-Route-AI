@@ -1,7 +1,7 @@
 import gymnasium as gym
 from gymnasium.spaces import Discrete, Box
 import numpy as np
-np.bool8 = np.bool   # backward compatibility fix for numpy
+np.bool8 = bool   # backward compatibility fix for numpy
 import matplotlib.pyplot as plt
 import networkx as nx
 import math
