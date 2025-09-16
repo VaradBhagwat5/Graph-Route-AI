@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 
 st.set_page_config(page_title="RL Routing Simulator", layout="wide")
-st.title("📊 RL Routing Evaluation (PPO vs Dijkstra)")
+st.title("RL Routing Evaluation (PPO vs Dijkstra)")
 
 # Sidebar inputs
 st.sidebar.header("Evaluation Settings")
@@ -19,9 +19,9 @@ eval_button = st.sidebar.button("Run Evaluation")
 
 if eval_button:
     if not os.path.exists("model.zip"):
-        st.error("❌ model.zip not found in current directory. Please train and save first.")
+        st.error("model.zip not found in current directory. Please train and save first.")
     else:
-        st.write(f"🔍 Evaluating PPO model for {episodes} episode(s)...")
+        st.write(f"Evaluating PPO model for {episodes} episode(s)...")
 
         all_results = []
         for ep in range(episodes):
@@ -54,4 +54,4 @@ if eval_button:
         fig = draw_subplots_graph(G, pos, dijkstra_path, env.path_taken,
                             source, destination, info['path_weight'], dijkstra_cost, weight_labels)
         st.pyplot(fig)
-        st.success("✅ Evaluation complete!")
+        st.success("Evaluation complete!")

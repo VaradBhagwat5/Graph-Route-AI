@@ -33,7 +33,7 @@ def train_model(number_of_nodes=10, epochs=10, timesteps=100_000,
     
     # Save model
     model.save(save_path)
-    print(f"✅ Model saved to {save_path}")
+    print(f"Model saved to {save_path}")
 
     # Evaluation on one episode
     obs, _ = env.reset(options={"source": source, "destination": destination})
