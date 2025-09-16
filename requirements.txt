@@ -1,6 +1,6 @@
 # RL and environment
 stable-baselines3==2.1.0
-torch==2.2.0
+torch
 torchvision==0.16.0  # optional, sometimes required with torch
 numpy==1.26.0
 
