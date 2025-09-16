@@ -2,7 +2,9 @@
 stable-baselines3==2.1.0
 torch
 torchvision
-numpy==1.26.0
+
+# Allow the installer to choose a compatible version
+numpy
 
 # Transformers and BERT
 transformers==4.41.0
@@ -16,6 +18,6 @@ scikit-learn==1.3.1
 networkx==3.1
 matplotlib==3.8.0
 
-# Web app
-streamlit==1.26.0
+# Web app - Allow the installer to choose a compatible version
+streamlit
 requests==2.32.0
