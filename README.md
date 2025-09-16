@@ -1,4 +1,4 @@
-# RL Routing Simulator
+# Graph Route AI
 
 The RL Routing Simulator is a reinforcement learning project designed to train an agent to find near-optimal paths in a graph environment. It compares the learned paths from a **PPO (Proximal Policy Optimization)** agent against Dijkstra’s algorithm to evaluate performance.
 
