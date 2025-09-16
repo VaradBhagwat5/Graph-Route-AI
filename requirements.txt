@@ -3,6 +3,7 @@ stable-baselines3==2.1.0
 torch
 torchvision
 numpy
+gymnasium
 
 # Data handling - Allow installer to choose compatible versions
 pandas
